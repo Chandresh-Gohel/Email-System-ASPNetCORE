@@ -1,4 +1,4 @@
-using DOT_NET_Core_Email_System.Data;
+using Email_System_ASPCORE.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,11 +27,15 @@ namespace DOT_NET_Core_Email_System
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApplicationDbContext>(options =>
+            services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+                .AddEntityFrameworkStores<AppDbContext>();
+            services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>();
+            services.AddControllersWithViews();
+            services.AddScoped<IUserRepo, SQLUserRepo>();//Added
+            services.AddScoped<IEmailRepo, SQLEmailRepo>();//Added
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
