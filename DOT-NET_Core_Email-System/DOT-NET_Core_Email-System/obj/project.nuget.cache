@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Sk4ypMWTJacCs2lpTHk6W+gY4f09RsVvfJNq3/XQ2vCGoCHapETXMGHhTU+6r7mlPLKdMcx4ej2zBKxY/hp5CA==",
+  "dgSpecHash": "8FRrsCHy+jBdi9f/8CgJZ6eysRuG8AseFUQJP1Yb5dXN0u5tRlNLB89dN+8Qq4iWvSttQNx+n+3bHzZ4WEkMuA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ronak\\Desktop\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System.csproj",
+  "projectFilePath": "C:\\Users\\ronak\\Desktop\\WDDN-Core\\Email-System-ASPNetCORE\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ronak\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.15\\microsoft.aspnetcore.cryptography.internal.3.1.15.nupkg.sha512",
     "C:\\Users\\ronak\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.15\\microsoft.aspnetcore.cryptography.keyderivation.3.1.15.nupkg.sha512",

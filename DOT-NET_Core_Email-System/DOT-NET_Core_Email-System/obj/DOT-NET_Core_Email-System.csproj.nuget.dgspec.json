@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ronak\\Desktop\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System.csproj": {}
+    "C:\\Users\\ronak\\Desktop\\WDDN-Core\\Email-System-ASPNetCORE\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ronak\\Desktop\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System.csproj": {
+    "C:\\Users\\ronak\\Desktop\\WDDN-Core\\Email-System-ASPNetCORE\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ronak\\Desktop\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System.csproj",
+        "projectUniqueName": "C:\\Users\\ronak\\Desktop\\WDDN-Core\\Email-System-ASPNetCORE\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System.csproj",
         "projectName": "DOT-NET_Core_Email-System",
-        "projectPath": "C:\\Users\\ronak\\Desktop\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System.csproj",
+        "projectPath": "C:\\Users\\ronak\\Desktop\\WDDN-Core\\Email-System-ASPNetCORE\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System.csproj",
         "packagesPath": "C:\\Users\\ronak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ronak\\Desktop\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\obj\\",
+        "outputPath": "C:\\Users\\ronak\\Desktop\\WDDN-Core\\Email-System-ASPNetCORE\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ronak\\AppData\\Roaming\\NuGet\\NuGet.Config",
