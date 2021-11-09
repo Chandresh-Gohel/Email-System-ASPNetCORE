@@ -32,7 +32,7 @@ namespace DOT_NET_Core_Email_System
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<AppDbContext>();
-            services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>();
+            //services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>();
             services.AddControllersWithViews();
             services.AddScoped<IUserRepo, SQLUserRepo>();//Added
             services.AddScoped<IEmailRepo, SQLEmailRepo>();//Added

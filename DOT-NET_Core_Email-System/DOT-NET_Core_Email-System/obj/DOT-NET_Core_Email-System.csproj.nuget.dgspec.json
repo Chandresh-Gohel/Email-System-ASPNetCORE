@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\DDU\\DDU_PROJECTS\\Semester_5\\Email-System-ASPNetCORE\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System.csproj": {}
+    "C:\\Users\\ronak\\Desktop\\WDDN-Core\\Email-System-ASPNetCORE\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System.csproj": {}
   },
   "projects": {
-    "E:\\DDU\\DDU_PROJECTS\\Semester_5\\Email-System-ASPNetCORE\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System.csproj": {
+    "C:\\Users\\ronak\\Desktop\\WDDN-Core\\Email-System-ASPNetCORE\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DDU\\DDU_PROJECTS\\Semester_5\\Email-System-ASPNetCORE\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System.csproj",
+        "projectUniqueName": "C:\\Users\\ronak\\Desktop\\WDDN-Core\\Email-System-ASPNetCORE\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System.csproj",
         "projectName": "DOT-NET_Core_Email-System",
-        "projectPath": "E:\\DDU\\DDU_PROJECTS\\Semester_5\\Email-System-ASPNetCORE\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System.csproj",
-        "packagesPath": "C:\\Users\\CHANDRESH-PC\\.nuget\\packages\\",
-        "outputPath": "E:\\DDU\\DDU_PROJECTS\\Semester_5\\Email-System-ASPNetCORE\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\obj\\",
+        "projectPath": "C:\\Users\\ronak\\Desktop\\WDDN-Core\\Email-System-ASPNetCORE\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System.csproj",
+        "packagesPath": "C:\\Users\\ronak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ronak\\Desktop\\WDDN-Core\\Email-System-ASPNetCORE\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CHANDRESH-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ronak\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -87,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
