@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\CHANDRESH-PC\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\CHANDRESH-PC\\.nuget\\packages"
+      "C:\\Users\\ronak\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ronak\\.nuget\\packages"
     ]
   }
 }
