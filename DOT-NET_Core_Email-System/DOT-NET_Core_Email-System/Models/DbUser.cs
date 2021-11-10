@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Email_System_ASPCORE.Models
+namespace DOT_NET_Core_Email_System.Models
 {
     public class DbUser
     {
