@@ -508,3 +508,4 @@ C:\Users\ronak\Desktop\WDDN-Core\Email-System-ASPNetCORE\DOT-NET_Core_Email-Syst
 C:\Users\ronak\Desktop\WDDN-Core\Email-System-ASPNetCORE\DOT-NET_Core_Email-System\DOT-NET_Core_Email-System\obj\Debug\netcoreapp3.1\DOT-NET_Core_Email-System.dll
 C:\Users\ronak\Desktop\WDDN-Core\Email-System-ASPNetCORE\DOT-NET_Core_Email-System\DOT-NET_Core_Email-System\obj\Debug\netcoreapp3.1\DOT-NET_Core_Email-System.pdb
 C:\Users\ronak\Desktop\WDDN-Core\Email-System-ASPNetCORE\DOT-NET_Core_Email-System\DOT-NET_Core_Email-System\obj\Debug\netcoreapp3.1\DOT-NET_Core_Email-System.genruntimeconfig.cache
+C:\Users\ronak\Desktop\WDDN-Core\Email-System-ASPNetCORE\DOT-NET_Core_Email-System\DOT-NET_Core_Email-System\obj\Debug\netcoreapp3.1\Razor\Views\Sidebar\Compose.cshtml.g.cs

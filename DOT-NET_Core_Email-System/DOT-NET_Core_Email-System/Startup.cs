@@ -1,4 +1,4 @@
-using Email_System_ASPCORE.Models;
+using DOT_NET_Core_Email_System.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;

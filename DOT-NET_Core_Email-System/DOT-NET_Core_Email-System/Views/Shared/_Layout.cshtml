@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/css/sidebar.css" />
     <link rel="stylesheet" href="~/css/footer.css" />
-
+    <link rel="stylesheet" href="~/css/compose-profile.css" />
+    <!--Use for bootstrap icon-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 <body>
     <header>
@@ -25,34 +27,39 @@
                         <h3>Email System</h3>
                     </div>
 
+                    <div class="compose-button p-2" style="text-align: center">
+
+                        <a href="/Sidebar/Compose"><i class="far fa-edit"></i>&nbsp;&nbsp;Compose</a>
+                    </div>
+
                     <ul class="list-unstyled components">
                         <li class="active">
-                            <a href="/Sidebar/Inbox">Inbox</a>
+                            <a href="/Sidebar/Inbox" title="Inbox"><i class="fa fa-inbox" aria-hidden="true"></i>&nbsp;&nbsp;Inbox</a>
                         </li>
                         <li>
-                            <a href="/Sidebar/Starred">Starred</a>
+                            <a href="/Sidebar/Starred" title="Starred"><i class="fa fa-star" aria-hidden="true"></i>&nbsp;&nbsp;Starred</a>
                         </li>
                         <li>
-                            <a href="/Sidebar/Sent">Sent</a>
+                            <a href="/Sidebar/Sent" title="Sent"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;&nbsp;Sent</a>
                         </li>
                         <li>
-                            <a href="/Sidebar/Trash">Trash</a>
+                            <a href="/Sidebar/Trash" title="Trash"><i class="fa fa-trash" aria-hidden="true"></i>&nbsp;&nbsp;Trash</a>
                         </li>
                         <li>
-                            <a href="/Sidebar/About">About</a>
+                            <a href="/Sidebar/About" title="About"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;&nbsp;About</a>
                         </li>
                         <li>
-                            <a href="/Sidebar/Contact">Contact</a>
+                            <a href="/Sidebar/Contact" title="Contact"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;Contact</a>
                         </li>
                     </ul>
 
                     <ul class="list-unstyled CTAs">
                         <li>
-                            <a class="nav-link text-dark download" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity.Name!</a>
+                            <a class="nav-link text-dark download" asp-area="Identity" asp-page="/Account/Manage/Index" title="Profile"><h4 style="color:black;">Profile</h4></a>
                         </li>
                         <li>
                             <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-                                <button type="submit" class="btn btn-light btn-lg btn-block">Logout</button>
+                                <button type="submit" class="btn btn-light btn-lg btn-block" title="Logout" style="color:black;">Logout</button>
                             </form>
                         </li>
                     </ul>
