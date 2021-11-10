@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace Email_System_ASPCORE.Models
+namespace DOT_NET_Core_Email_System.Models
 {
     public class AppDbContext : IdentityDbContext
     {

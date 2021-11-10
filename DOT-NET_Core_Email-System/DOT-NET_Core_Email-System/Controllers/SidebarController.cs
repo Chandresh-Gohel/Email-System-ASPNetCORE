@@ -8,6 +8,10 @@ namespace DOT_NET_Core_Email_System.Controllers
 {
     public class SidebarController : Controller
     {
+        public IActionResult Compose()
+        {
+            return View();
+        }
         public IActionResult Inbox()
         {
             return View();
