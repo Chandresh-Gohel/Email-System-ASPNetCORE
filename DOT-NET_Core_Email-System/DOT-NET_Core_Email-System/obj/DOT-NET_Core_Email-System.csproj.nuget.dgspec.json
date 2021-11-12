@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ronak\\Desktop\\WDDN-Core\\Email-System-ASPNetCORE\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System.csproj": {}
+    "E:\\DDU\\DDU_PROJECTS\\Semester_5\\Email-System-ASPNetCORE\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ronak\\Desktop\\WDDN-Core\\Email-System-ASPNetCORE\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System.csproj": {
+    "E:\\DDU\\DDU_PROJECTS\\Semester_5\\Email-System-ASPNetCORE\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ronak\\Desktop\\WDDN-Core\\Email-System-ASPNetCORE\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System.csproj",
+        "projectUniqueName": "E:\\DDU\\DDU_PROJECTS\\Semester_5\\Email-System-ASPNetCORE\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System.csproj",
         "projectName": "DOT-NET_Core_Email-System",
-        "projectPath": "C:\\Users\\ronak\\Desktop\\WDDN-Core\\Email-System-ASPNetCORE\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System.csproj",
-        "packagesPath": "C:\\Users\\ronak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ronak\\Desktop\\WDDN-Core\\Email-System-ASPNetCORE\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\obj\\",
+        "projectPath": "E:\\DDU\\DDU_PROJECTS\\Semester_5\\Email-System-ASPNetCORE\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System.csproj",
+        "packagesPath": "C:\\Users\\CHANDRESH-PC\\.nuget\\packages\\",
+        "outputPath": "E:\\DDU\\DDU_PROJECTS\\Semester_5\\Email-System-ASPNetCORE\\DOT-NET_Core_Email-System\\DOT-NET_Core_Email-System\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ronak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CHANDRESH-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,29 +40,31 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.15, )"
-            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.15, )"
+              "version": "[3.1.19, )"
             },
-            "Microsoft.AspNetCore.Identity.UI": {
+            "Microsoft.AspNetCore.Session": {
               "target": "Package",
-              "version": "[3.1.15, )"
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.19, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[3.1.15, )"
+              "version": "[3.1.19, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.15, )"
+              "version": "[3.1.19, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.15, )"
+              "version": "[3.1.19, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -87,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

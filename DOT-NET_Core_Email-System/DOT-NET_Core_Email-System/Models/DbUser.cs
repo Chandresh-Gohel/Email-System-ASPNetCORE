@@ -17,6 +17,7 @@ namespace DOT_NET_Core_Email_System.Models
         public string UserLastName { get; set; }
         [Required]
         public DateTime DOB { get; set; }
+        [Required]
         [DataType(DataType.Password)]
         public string UserPass { get; set; }
         [Required]
