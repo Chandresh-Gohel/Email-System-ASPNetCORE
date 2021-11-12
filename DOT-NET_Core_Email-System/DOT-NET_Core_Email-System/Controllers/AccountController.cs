@@ -21,6 +21,7 @@ namespace DOT_NET_Core_Email_System.Controllers
         }
         public IActionResult SignUp()
         {
+            HttpContext.Session.Clear();
             return View();
         }
         [HttpPost, ActionName("SignUp")]
@@ -47,6 +48,7 @@ namespace DOT_NET_Core_Email_System.Controllers
         
         public IActionResult Login()
         {
+            HttpContext.Session.Clear();
             return View();
         }
         [HttpPost]

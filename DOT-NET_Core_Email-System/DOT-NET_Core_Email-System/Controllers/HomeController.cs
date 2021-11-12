@@ -6,29 +6,25 @@ using System.Threading.Tasks;
 using DOT_NET_Core_Email_System.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Http;
 
 namespace DOT_NET_Core_Email_System.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
-
+        private readonly string UserEmailSession = "_UserEmail";
         public IActionResult Index()
         {
+            HttpContext.Session.Clear();
             return View();
         }
 
         public IActionResult Privacy()
         {
+            HttpContext.Session.Clear();
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });

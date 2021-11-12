@@ -2,7 +2,7 @@
 @{
     ViewData["Title"] = "Starred";
 }
-
+<h3>Starred</h3>
 <table class="table" style="text-align:center">
     <thead>
         <tr>
@@ -26,29 +26,29 @@
     <tbody>
         @foreach (var item in Model)
         {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.FromUserEmailId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ToUserEmailId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.EmailSubject)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AttachmentName)
-            </td>
-            <td>
-                <a asp-action="StarMail" asp-controller="sidebar" class="btn btn-light" name="StarMailButton" id="StarMailButton" asp-route-id="@item.Id" style="color: goldenrod"><i class="fas fa-star"></i></a>
-            </td>
-            <td>
-                <a asp-action="ViewPassMail" asp-controller="sidebar" class="btn btn-outline-info" asp-route-id="@item.Id">ViewMail</a>
-            </td>
-            <td>
-                <a asp-action="DeleteMail" asp-controller="sidebar" class="btn btn-outline-danger" name="DeleteMailButton" id="DeleteMailButton" asp-route-id="@item.Id"><i class="fas fa-trash"></i></a>
-            </td>
-        </tr>
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FromUserEmailId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ToUserEmailId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmailSubject)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AttachmentName)
+                </td>
+                <td>
+                    <a asp-action="StarMail" asp-controller="sidebar" class="btn btn-light" name="StarMailButton" id="StarMailButton" asp-route-id="@item.Id" style="color: goldenrod"><i class="fas fa-star"></i></a>
+                </td>
+                <td>
+                    <a asp-action="ViewPassMail" asp-controller="sidebar" class="btn btn-outline-info" asp-route-id="@item.Id">ViewMail</a>
+                </td>
+                <td>
+                    <a asp-action="DeleteMail" asp-controller="sidebar" class="btn btn-outline-danger" name="DeleteMailButton" id="DeleteMailButton" asp-route-id="@item.Id"><i class="fas fa-trash"></i></a>
+                </td>
+            </tr>
         }
     </tbody>
 </table>

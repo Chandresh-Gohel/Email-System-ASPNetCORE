@@ -15,7 +15,5 @@ namespace DOT_NET_Core_Email_System.ViewModels
         [Required]
         [DataType(DataType.Password)]
         public string Password { get; set; }
-        [Display(Name = "Remember me")]
-        public bool RememberMe { get; set; }
     }
 }

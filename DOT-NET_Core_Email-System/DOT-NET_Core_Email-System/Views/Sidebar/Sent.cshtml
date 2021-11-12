@@ -2,7 +2,7 @@
 @{
     ViewData["Title"] = "Sent";
 }
-
+<h3>Sent</h3>
 <table class="table" style="text-align:center">
     <thead>
         <tr>
@@ -34,7 +34,7 @@
                     @Html.DisplayFor(modelItem => item.AttachmentName)
                 </td>
                 <td>
-                    @if (item.Is_ToUser_Starred == true)
+                    @if (item.Is_FromUser_Starred == true)
                     {
                         <a asp-action="StarMail" asp-controller="sidebar" class="btn btn-light" name="StarMailButton" id="StarMailButton" asp-route-id="@item.Id" style="color: goldenrod"><i class="fas fa-star"></i></a>
                     }

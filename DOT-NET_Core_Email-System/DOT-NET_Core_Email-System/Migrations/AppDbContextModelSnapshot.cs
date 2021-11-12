@@ -118,9 +118,6 @@ namespace DOT_NET_Core_Email_System.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("RememberMe")
-                        .HasColumnType("bit");
-
                     b.HasKey("Email");
 
                     b.ToTable("LoginViewModel");
