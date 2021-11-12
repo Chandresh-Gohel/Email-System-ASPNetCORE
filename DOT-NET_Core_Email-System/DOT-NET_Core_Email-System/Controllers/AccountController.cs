@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using DOT_NET_Core_Email_System.Models;
 using DOT_NET_Core_Email_System.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -85,11 +86,19 @@ namespace DOT_NET_Core_Email_System.Controllers
         }
         public IActionResult Profile()
         {
+            if (HttpContext.Session.GetString(UserNameSession) == null || HttpContext.Session.GetString(UserEmailSession) == null)
+            {
+                Response.Redirect("/Account/Login");
+            }
             var model = userRepo.GetUserEmail(HttpContext.Session.GetString(UserEmailSession));
             return View(model);
         }
         public IActionResult UpdateProfile()
         {
+            if (HttpContext.Session.GetString(UserNameSession) == null || HttpContext.Session.GetString(UserEmailSession) == null)
+            {
+                Response.Redirect("/Account/Login");
+            }
             DbUser user = userRepo.GetUserEmail(HttpContext.Session.GetString(UserEmailSession));
             UpdateProfileViewModel model = new UpdateProfileViewModel
             {
@@ -102,6 +111,10 @@ namespace DOT_NET_Core_Email_System.Controllers
         [HttpPost]
         public IActionResult UpdateProfile(UpdateProfileViewModel model)
         {
+            if (HttpContext.Session.GetString(UserNameSession) == null || HttpContext.Session.GetString(UserEmailSession) == null)
+            {
+                Response.Redirect("/Account/Login");
+            }
             if (ModelState.IsValid)
             {
                 DbUser user = userRepo.GetUserEmail(HttpContext.Session.GetString("_UserEmail"));
