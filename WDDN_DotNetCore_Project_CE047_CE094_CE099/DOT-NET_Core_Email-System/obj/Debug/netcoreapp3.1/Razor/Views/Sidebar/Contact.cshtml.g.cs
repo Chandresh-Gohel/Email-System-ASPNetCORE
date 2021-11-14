@@ -124,7 +124,6 @@ using DOT_NET_Core_Email_System.Models;
                     <div class=""d-flex flex-column ml-2""><span>Ronak Padaliya (Sem-5)</span></div>
                 </div>
                 <h6>Dharmsinh Desai University, Nadiad</h6>
-                <div class=""d-flex justify-content-end install mt-3""><a href=""https://mail.google.com/mail/?view=cm&fs=1&to=ronakpadaliya77@gmail.com"" target=""_blank"" class=""text-primary"">Contact</a></div>
             </div>
         </div>
         <div class=""col-md-4"">
@@ -135,7 +134,6 @@ using DOT_NET_Core_Email_System.Models;
                     <div class=""d-flex flex-column ml-2""><span>Chandresh Gohel (Sem-5)</span></div>
                 </div>
                 <h6>Dharmsinh Desai University, Nadiad</h6>
-                <div class=""d-flex justify-content-end install mt-3""><a href=""https://mail.google.com/mail/?view=cm&fs=1&to=chandreshgohel26@gmail.com"" target=""_blank"" class=""text-primary"">Contact</a></div>
             </div>
         </div>
         <div class=""col-md-4"">
@@ -144,9 +142,8 @@ using DOT_NET_Core_Email_System.Models;
                     <img src=""https://i.imgur.com/42SqVZd.png"" width=""70"">
                     <div class=""d-flex flex-column ml-2""><span>Darshan Parmar (Sem-5)</span></div>
                 </div>
-                <h6>Dharmsinh Desai University, Nadiad</h6>
-                <div class=""d-flex justify-content-end i");
-            WriteLiteral("nstall mt-3\"><a href=\"https://mail.google.com/mail/?view=cm&fs=1&to=darshanparmar272002@gmail.com\" target=\"_blank\" class=\"text-primary\">Contact</a></div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n");
+                <h6>Dharmsinh Desai University, Nadiad</h6>);
+            WriteLiteral("nstall mt-3\">\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n");
         }
         #pragma warning restore 1998
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
