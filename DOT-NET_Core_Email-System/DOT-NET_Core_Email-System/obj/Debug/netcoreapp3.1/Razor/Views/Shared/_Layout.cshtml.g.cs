@@ -449,8 +449,7 @@ using Microsoft.AspNetCore.Identity;
                                         <div class=""d-flex flex-column ml-2""><span>Ronak Padaliya</span></div>
                                     </div>
                                     <h6>Dharmsinh Desai University, Nadiad</h6>
-                                    <div class=""d-flex justify-content-end install mt-3""><a href=""https://mail.google.com/mail/?view=cm&fs=1&to=ronakpadaliya77");
-                WriteLiteral(@"@gmail.com"" target=""_blank"" class=""text-primary"">Contact</a></div>
+                                    
                                 </div>
                             </div>
                             <div class=""col-md-4"">
@@ -460,7 +459,7 @@ using Microsoft.AspNetCore.Identity;
                                         <div class=""d-flex flex-column ml-2""><span>Chandresh Gohel</span></div>
                                     </div>
                                     <h6>Dharmsinh Desai University, Nadiad</h6>
-                                    <div class=""d-flex justify-content-end install mt-3""><a href=""https://mail.google.com/mail/?view=cm&fs=1&to=ronakpadaliya77@gmail.com"" target=""_blank"" class=""text-primary"">Contact</a></div>
+                                    
                                 </div>
                             </div>
                             <div class=""col-md-4"">
@@ -471,7 +470,6 @@ using Microsoft.AspNetCore.Identity;
                                         <div class=""d-flex flex-column ml-2""><span>Darshan Parmar</span></div>
                                     </div>
                                     <h6>Dharmsinh Desai University, Nadiad</h6>
-                                    <div class=""d-flex justify-content-end install mt-3""><a href=""https://mail.google.com/mail/?view=cm&fs=1&to=ronakpadaliya77@gmail.com"" target=""_blank"" class=""text-primary"">Contact</a></div>
                                 </div>
                             </div>
                         </div>
